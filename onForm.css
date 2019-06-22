@@ -1,0 +1,103 @@
+.active{
+  color: #B7B7B7;
+  font-size: 18px;
+}
+
+a:link{
+  color: #5C7190;
+  text-decoration: none;
+}
+
+.general-text{
+  color: #F5F5F5;
+  font-family: 'Averia Serif Libre', cursive;
+}
+
+.header{
+  max-weight: 100%;
+  max-height: 100%;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.jxl{
+  color: #000000;
+  font-size: 20px;
+}
+
+.monday{
+  font-family: 'B612 Mono', monospace;
+}
+
+.projects{
+  font-family: 'Aguafina Script', cursive;
+  font-size: 40px;
+}
+
+.rectangle{
+  height: 10px;
+  width:auto;
+  background-color: #000000;
+}
+
+.subtitle{
+  font-size: 20px;
+  color: #000000;
+}
+
+.tab{
+  margin-left: 40px;
+}
+
+.twotab{
+  margin-left: 60px;
+}
+
+.title{
+  font-size: 140px;
+  color: #000000;
+}
+
+.subtitle{
+  font-size: 40px;
+  color: #000000;
+}
+
+.title-block{
+  text-align: left;
+}
+
+.topnav{
+  text-align: left;
+  overflow: hidden;
+  background-color: #000000;
+
+}
+
+.whitesmoke{
+  color: #F5F5F5;
+  font-family: 'Averia Serif Libre', cursive;
+}
+
+
+span {
+  font-size: 2em;
+}
+
+span c {
+  font-size: 33%;
+}
+span e {
+  font-size: 10%;
+}
+
+
+
+
+h3 {
+  letter-spacing: 0px;
+}
