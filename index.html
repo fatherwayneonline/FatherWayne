@@ -21,12 +21,31 @@
   <div class="rectangle">
   </div>
   <br>
+
   <br>
   <img src="title_card.jpg" alt="Paris" class="center">
   <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="subtitle"><i>Cases</i></a>
   <br>
+  <canvas id="demoCanvas" width="3000" height="50"></canvas>
+<script>
+var canvas = document.getElementById("demoCanvas");
+if (canvas.getContext)
+{
+var ctx = canvas.getContext("2d");
+var gradient = ctx.createLinearGradient(0, 0, 1500, 0);
+gradient.addColorStop(0, 'red');
+gradient.addColorStop(1 / 6, 'orange');
+gradient.addColorStop(2 / 6, 'yellow');
+gradient.addColorStop(3 / 6, 'green');
+gradient.addColorStop(4 / 6, 'blue');
+gradient.addColorStop(5 / 6, 'indigo');
+gradient.addColorStop(1, 'violet');
+ctx.fillStyle = gradient;
+ctx.fillRect(1, 1, 10000, 1);
+}
+</script>
   <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="subtitle"><i>Cases</i></a>
   <br>
   <a class="active tab" href="naming.html" target="_blank"><i>Sentinelle</i></a>
   <a class="active tab" href="visuals.html" target="_blank"><i>Visuals</i></a>
@@ -35,12 +54,8 @@
   <br>
   <br>
   <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+
+<br>
       Still thinking,<p>
 
       <br>
