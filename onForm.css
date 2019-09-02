@@ -8,6 +8,14 @@ a:link{
   text-decoration: none;
 }
 
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .general-text{
   color: #F5F5F5;
   font-family: 'Averia Serif Libre', cursive;
