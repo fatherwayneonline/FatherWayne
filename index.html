@@ -1,78 +1,174 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
   <head>
+    <title>FatherWayne</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" type="text/css" href="onForm.css">
     <link rel="icon" href="DoubleCross.jpg">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link href="https://fonts.googleapis.com/css?family=B612+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Aguafina+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre&display=swap" rel="stylesheet">
-    <title>FatherWayne</title>
 
 </head>
 
 <style>
 
-h1{
-  background-color: #468389;
-}
+  .header{
+    padding: 15px;
+    text-align: center;
+    background: #D1A3AF;
+    color: red;
+
+  }
+
+  h2 {
+     width: 100%;
+     text-align: center;
+     border-bottom: 30px solid #000;
+     line-height: 0.1em;
+     margin: 10px 0 20px;
+     font-size: 30px;
+  }
+
+  h2 span {
+      background:#d5ff00;
+      padding:0 200px;
+  }
+
+  h3{
+    font-size: 45px;
+  }
+
+  .module-border-wrap {
+    max-width: 100%;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(to right, red, orange, yellow, green, aqua, blue, purple);
+    padding: 1px;
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    font-size: 20px;
+  }
+
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+
+
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right;
+  }
+
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #d5ff00;
+    color: black;
+  }
+
+
+
+
+
+  /* Active/current link */
+  .navbar a.active {
+    background-color:  #00ff9e;
+    color: black;
+  }
+  .navbar a.about {
+    background-color: #666;
+    color: blue;
+
+  }
+
 
 body{
   background-image: url('DoubleCross.jpg');
   background-repeat; no-repeat;
 }
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+
 </style>
 
-<body bgcolor="FFFFFF">
-  <h1><i><b>FatherWayne</b></i><br> Summer 2020 <br>
-    Optimized for Desktop PC because I don't want you to use your phone to view.
-    <br>
-    Scroll Down = Presentation <br>
-    Scroll Right = DoubleCross Pattern
-
-  </h1>
-  <div class="rectangle">
+<body bgcolor="E2DADC">
+  <div class="header">
+        <a href="fatherwayne.com">
+        <img src="logo.jpg" alt="Logo" class="center" width="32%">
+        </a>
   </div>
-  <br>
+  <div class="navbar">
+    <a href="fatherwayne.com" class="active">HOME</a>
+    <a href="#">ABOUT US</a>
+    <a href="#"><i>Apr Laboratories</i></a>
+    <a href="#"><i>Atelier</i></a>
+    <a href="#"><i>Sezen</i></a>
+    <a href="#">FileShare</a>
 
-  <br>
-  <img src="Title_Summer_2020.jpg" alt="Dusty" class="center">
-  <br>
-  <br>
-  <canvas id="demoCanvas" width="3000" height="50"></canvas>
-<script>
-var canvas = document.getElementById("demoCanvas");
-if (canvas.getContext)
-{
-var ctx = canvas.getContext("2d");
-var gradient = ctx.createLinearGradient(0, 0, 1500, 0);
-gradient.addColorStop(0, 'red');
-gradient.addColorStop(1 / 6, 'orange');
-gradient.addColorStop(2 / 6, 'yellow');
-gradient.addColorStop(3 / 6, 'green');
-gradient.addColorStop(4 / 6, 'blue');
-gradient.addColorStop(5 / 6, 'indigo');
-gradient.addColorStop(1, 'violet');
-ctx.fillStyle = gradient;
-ctx.fillRect(1, 1, 10000, 1);
-}
-</script>
-  <br>
-
-
-  <br>
-  <br>
-  <br>
+    <a href="#" class="right">CONTACT</a>
+    <a href="#" class="right">Archive</a>
+  </div>
 
 <br>
+<br>
+
+
+  <div class="module-border-wrap">
+    <h2><i><b><center><span>xoxo FatherWayne</span></center></b></i></h2>
+    <br>
+    <b><i><center>The most elegeant balance&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</center></i></b> <p>
+
+
+      <h3><b><center>
+<span style="color:aqua">S</span>
+<span style="color:yellow">U</span>
+<span style="color:#FFCCCC">M</span>
+<span style="color:Magenta">M</span>
+<span style="color:MediumSpringGreen">E</span>
+<span style="color:LightSalmon">R</span>
+<span style="color:Indigo">2020</span>
+
+</center></b></h3>
+
+
+</div>
+
+
+
+
+
 
 <h1>I recommend clicking on the slide down below once, and then, using Left & Right arrow keys</h1>
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQSEgtj6N6FjuqBHegQK0i5ZK-Z4IENhSRswTHyMUDXqu6IsOIDqz012cFeL2itJdAF9xmeoLgmIYB_/embed?start=false&loop=false&delayms=60000" frameborder="0" width="100%" height="800px" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQSEgtj6N6FjuqBHegQK0i5ZK-Z4IENhSRswTHyMUDXqu6IsOIDqz012cFeL2itJdAF9xmeoLgmIYB_/embed?start=false&loop=false&delayms=60000" frameborder="0" width="100%" height="600px" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
   <h1> You can also full screen with the box symbol to the left of the gear wheel above </h1>
 
