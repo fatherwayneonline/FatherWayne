@@ -45,7 +45,7 @@ h3{
   font-size: 1.5vw;
   border: 10px solid;
   border-image-slice: 1;
-  border-width: 3px;
+  border-width: 2.5px;
   border-image-source: linear-gradient(to right, red, orange, yellow, green, aqua, blue, purple);
 }
 
