@@ -38,7 +38,7 @@ h3{
 
 .navbar {
   overflow: hidden;
-  background-color: #669088;
+  background-color: #CEE0D8;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -53,7 +53,7 @@ h3{
 .navbar a {
   float: left;
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
