@@ -47,6 +47,7 @@ h3{
   border-image-slice: 1;
   border-width: 2.5px;
   border-image-source: linear-gradient(to right, red, orange, yellow, green, aqua, blue, purple);
+  text-shadow: 2px 2px 8px #505050;
 }
 
 /* Style the navigation bar links */
