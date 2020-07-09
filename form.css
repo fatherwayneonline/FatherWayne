@@ -2,11 +2,7 @@
   padding: 5px;
   text-align: center;
   background: #F9FFFF;
-  color: red;
-  border: 10px solid;
-  border-image-slice: 1;
-  border-width: 2px;
-  border-image-source: linear-gradient(to right, red, orange, yellow, green, aqua, blue, purple);
+
 
 }
 
